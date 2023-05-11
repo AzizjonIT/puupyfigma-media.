@@ -1,0 +1,735 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    margin: 0, auto;
+}
+
+.header_img_1 {
+    width: 400px;
+}
+
+.header_text {
+    width: 600px;
+
+}
+
+.icons {
+    margin-top: 30px;
+}
+
+.icons_i {
+    padding-left: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 130px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.card_11 {
+    display: flex;
+    align-items: end;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.card_img {
+    width: 50px;
+    height: 50px;
+}
+
+.cardd {
+    display: flex;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 870px;
+    height: 670px;
+
+}
+
+section {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.section_text {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+h4 {
+    color: #FFC59E;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.imglar {
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.imglar_1 {
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.p {
+    color: #FFC59E;
+    text-align: center;
+    font-weight: 900;
+}
+
+.n {
+    font-size: 80px;
+}
+
+.nn {
+    font-size: 40px;
+}
+
+.number {
+    width: 430px;
+    margin: auto;
+}
+
+.card_22 {
+    width: 380px;
+    height: 280px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card_22_img {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card_22_img_1 {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.cardd_1 {
+    display: flex;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    height: 970px;
+}
+
+.header_11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #FFC59E;
+    width: 90%;
+    height: 600px;
+
+}
+
+header {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.kantakt_card {
+    width: 350px;
+    height: 220px;
+
+    padding: 30px;
+}
+
+.card_text_k {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+.kantakt_aa {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.kantakt_card_img {
+    width: 800px;
+}
+
+.footer_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.foter_text {
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    color: aliceblue;
+}
+
+.footer_text {
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer_1_img {
+    border-radius: 50px;
+}
+
+.foter_p {
+    margin-top: 60px;
+}
+
+footer {
+    margin-top: 50px;
+   
+    background: #59443F;
+    padding: 40px;
+    margin: 0, auto;
+}
+
+.icons_1 {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width:1265px) {
+
+    .conteiner {
+        width: 900px;
+        margin: auto;
+    }
+
+    .cardd_1 {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 900px;
+        height: 1470px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .header_11 {
+        width: 500px;
+        height: 1000px;
+        padding: 20px;
+    }
+
+    .imglar {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width:910px) {
+
+    .conteiner {
+        width: 700px;
+        margin: auto;
+    }
+
+    .cardd_1 {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2670px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .header_11 {
+        width: 500px;
+        height: 1000px;
+        padding: 20px;
+    }
+
+    .imglar {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cardd {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 680px;
+        height: 1070px;
+
+    }
+
+    .kantakt_card_img {
+        width: 500px;
+
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .n {
+        font-size: 60px;
+    }
+
+    .nn {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:710px) {
+
+    .conteiner {
+        width: 500px;
+        margin: auto;
+    }
+
+    .cardd_1 {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2670px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .header_11 {
+        width: 500px;
+        height: 1000px;
+        padding: 20px;
+
+    }
+
+    .imglar {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+
+    .cardd {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 430px;
+        height: 1270px;
+
+    }
+
+    .kantakt_card_img {
+        width: 500px;
+
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: space-evenly;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .n {
+        font-size: 50px;
+    }
+
+    .nn {
+        font-size: 20px;
+    }
+
+    .number {
+        width: 300px;
+    }
+
+    .header_imgg {
+        display: none;
+    }
+
+    .icons_1 {
+        display: none;
+    }
+
+    .header {
+        margin: auto;
+        width: 360px;
+        height: 850px;
+    }
+
+    .cardd_1 {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:505px) {
+
+    .conteiner {
+        width: 415px;
+        margin: auto;
+    }
+
+    .cardd_1 {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2670px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .header_11 {
+        width: 400px;
+        height: 1000px;
+        padding: 20px;
+        font-size: 4px;
+    }
+
+    .imglar {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+
+    .cardd {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 400px;
+        height: 1270px;
+
+    }
+
+    .kantakt_card_img {
+        width: 300px;
+
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .n {
+        font-size: 50px;
+    }
+
+    .nn {
+        font-size: 20px;
+    }
+
+    .number {
+        width: 300px;
+    }
+
+    .header_imgg {
+        display: none;
+    }
+
+    .icons_1 {
+        display: none;
+    }
+
+    .header {
+        margin: auto;
+        width: 350px;
+        height: 850px;
+    }
+
+    .cardd_1 {
+        width: 400px;
+    }
+    .header_text{
+        width: 400px;
+    }
+    .header_text_h1{
+        font-size: 30px;
+    }
+    .header_img_1{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+
+    .conteiner {
+        width: 380px;
+        margin: auto;
+    }
+
+    .cardd_1 {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2670px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .header_11 {
+        width: 350px;
+        height: 700px;
+        padding: 20px;
+        font-size: 4px;
+    }
+
+    .imglar {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+.card{
+    margin: auto;
+}
+    .cardd {
+        display: flex;
+       
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2570px;
+
+    }
+    .card_22{
+        width: 350px;
+    }
+    .kantakt_card_img {
+        width: 300px;
+
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .n {
+        font-size: 50px;
+    }
+
+    .nn {
+        font-size: 20px;
+    }
+
+    .number {
+        width: 270px;
+    }
+
+    .header_imgg {
+        display: none;
+    }
+
+    .icons_1 {
+        display: none;
+    }
+
+    .header {
+        margin: auto;
+        width: 350px;
+        height: 850px;
+    }
+
+    .cardd_1 {
+        width: 350px;
+    }
+    .header_text{
+        width: 240px;
+    }
+    .header_text_h1{
+        font-size: 30px;
+    }
+    .header_img_1{
+        width: 300px;
+    }
+    .section_text{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+
+    .conteiner {
+        width: 380px;
+        margin: auto;
+    }
+
+    .cardd_1 {
+        display: flex;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2670px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    .header_11 {
+        width: 350px;
+        height: 700px;
+        padding: 20px;
+        font-size: 4px;
+    }
+
+    .imglar {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+    }
+.card{
+    margin: auto;
+}
+    .cardd {
+        display: flex;
+       
+       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 300px;
+        height: 2570px;
+
+    }
+    .card_22{
+        width: 350px;
+    }
+    .kantakt_card_img {
+        width: 300px;
+
+    }
+
+    .footer_text {
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .n {
+        font-size: 50px;
+    }
+
+    .nn {
+        font-size: 20px;
+    }
+
+    .number {
+        width: 270px;
+    }
+
+    .header_imgg {
+        display: none;
+    }
+
+    .icons_1 {
+        display: none;
+    }
+
+    .header {
+        margin: auto;
+        width: 350px;
+        height: 850px;
+    }
+
+    .cardd_1 {
+        width: 350px;
+    }
+    .header_text{
+        width: 240px;
+    }
+    .header_text_h1{
+        font-size: 30px;
+    }
+    .header_img_1{
+        width: 300px;
+    }
+    .section_text{
+        width: 350px;
+    }
+}
